@@ -2,7 +2,7 @@ package nice
 
 import "testing"
 
-func TestNice(t *testing.T) {
+func TestPrint(t *testing.T) {
 	v := map[string]interface{}{
 		"str":   "foo",
 		"num":   100,
@@ -14,5 +14,5 @@ func TestNice(t *testing.T) {
 		},
 	}
 
-	Nice(v)
+	Print(v)
 }

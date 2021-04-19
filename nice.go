@@ -8,7 +8,7 @@ import (
 
 const errMarshalError = "Failed to convert object to JSON"
 
-func Nice(v interface{}) {
+func Print(v interface{}) {
 	value, ok := v.([]byte)
 	if ok {
 		fmt.Println(string(value))
